@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="US-en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hamburger color menu</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+
+</head>
+
+<body>
+    <section class="main">
+        <header class="nav-bar" onclick="onMenuOptionClick(event)">
+            <h1>Pick a color from the hamburger menu and see the magic happening</h1>
+            <div class="hamburger-lines">
+                <div class="top"></div>
+                <div class="middle"></div>
+                <div class="bottom"></div>
+            </div>
+        </header>
+
+        <div class="hamburger-menu">
+            <ul>
+                <div id="radiohome" onclick="onMenuOptionClick(event)">
+                    <li class=home1>
+                        <input type="radio" id="home" name="color" value="HOME">
+                        <label for="home"></label>
+                        HOME
+                    </li>
+                </div>
+                <div id="radiored" onclick="onMenuOptionClick(event)">
+
+                    <li class=red1>
+                        <input type="radio" id="red" name="color" value="RED">
+                        <label for="red"></label>
+                        Pick me i am RED
+                    </li>
+                </div>
+
+                <div id="radioblue" onclick="onMenuOptionClick(event)">
+
+                    <li class="blue1">
+                        <input type="radio" id="blue" name="color" value="BLUE">
+                        <label for="blue"></label>
+                        Pick me i am BLUE
+                    </li>
+                </div>
+                <div id="radiogreen" onclick="onMenuOptionClick(event)">
+
+                    <li class="green1">
+                        <input type="radio" id="green" name="color" value="GREEN">
+                        <label for="green"></label>
+                        Pick me i am GREEN
+                    </li>
+                </div>
+                <div id="radioyellow" onclick="onMenuOptionClick(event)">
+
+                    <li class="yellow1">
+                        <input type="radio" id="yellow" name="color" value="YELLOW">
+                        <label for="yellow"></label>
+                        Pick me i am YELLOW
+                    </li>
+                </div>
+            </ul>
+
+        </div>
+    </section>
+</body>
+<script src="script.js"></script>
+
+</html>
